@@ -1,3 +1,3 @@
 # README 
 - carlos rojas (@profrojas)
-- tri ngo (@tri)
+- tri ngo (@tringo)
