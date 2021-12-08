@@ -8,7 +8,9 @@
   <p><a href="{{ url_for('markdown_to_pdf',username=username) }}">Markdown to pdf</a></p>
   <p><a href="{{ url_for('trackinghours',username=username) }}">Tracking Hour</a></p>
   <p><a href="{{ url_for('visualize',username=username) }}">Visualize Project</a></p>
-  <p><a href="{{ url_for('flashcards',username=username) }}">Practice with Flash Cards</a></p>
+  <p><a href="{{ url_for('flashcards',username=username) }}">Create Flash Cards</a></p>
+  <p><a href="{{ url_for('question',num=1, username=username) }}">Practice with Flash Cards</a></p>
+  <p><a href="{{ url_for('flashcards_to_pdf',username=username) }}">Flash Cards to pdf</a></p>
   <p><a href="{{ url_for('renderpage',username=username) }}">Render Files</a></p>
   <p><a href = "{{ url_for('addtags',username=username) }}">Add Tags to Files</a></p>
 </div>

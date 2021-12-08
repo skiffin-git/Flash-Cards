@@ -413,6 +413,18 @@ def markdown_to_pdf(username):
             return response
     return render_template("markdown_to_pdf.html", form=form, username=username)
 
+@ myapp_obj.route('/flashcards-to-pdf/<string:username>', methods=['GET', 'POST'])
+def flashcards_to_pdf(username):
+    """
+    This function creates a route for the flashcards-to-pdf feature
+            Returns:
+                    Show a page for the flashcards-to-pdf feature
+    """
+    pdf = pdfkit.from_url(url_for("flashcards",username=username,file="out.pdf"))
+    response = make_response(pdf)
+    response.headers["Content-Type"] = "application/pdf"
+    response.headers["Content-Disposition"] = "inline; filename = output.pdf"
+    return response
 
 @ myapp_obj.route('/rename/<string:username>', methods=['GET', 'POST'])
 def rename(username):

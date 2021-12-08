@@ -10,7 +10,7 @@ class LoginForm(FlaskForm):
             Parameters:
                     username (StringField): A single line of text for user to input name
                     password (PasswordField): A single line of text for users to enter password
-                    remember_me (BooleanField): a checkbox 
+                    remember_me (BooleanField): a checkbox
                     submit (SubmitField)
 
             Returns:
@@ -64,24 +64,24 @@ class SearchForm(FlaskForm):
 
             Parameters:
                     result (StringField): A single line of text
-                    sumbit (SubmitField): A submit button 
+                    sumbit (SubmitField): A submit button
             Returns:
                     Show a search form for the find-text-in-files feature
 	"""
         result = StringField('Result', validators=[DataRequired()])
         submit = SubmitField('Search')
 
-class RenameForm(FlaskForm):	
+class RenameForm(FlaskForm):
         """
 	This class creates a rename form for the rename-file feature
 
             Parameters:
                     file (FileField): A file
 		    new_name(StringField): A single line of text
-                    sumbit (SubmitField): A submit button 
+                    sumbit (SubmitField): A submit button
             Returns:
                     Show a rename form for the rename-file feature
-	"""		
+	"""
         file = FileField('File', validators=[FileRequired()])
         new_name = StringField('New name', validators=[DataRequired()])
         submit = SubmitField('Rename')
@@ -91,8 +91,8 @@ class MdToPdfForm(FlaskForm):
 	This class creates a markdown-to-pdf form for the markdown-to-pdf feature
 
             Parameters:
-                    file (FileField): A file		    
-                    sumbit (SubmitField): A submit button 
+                    file (FileField): A file
+                    sumbit (SubmitField): A submit button
             Returns:
                     Show a markdown-to-pdf form for the markdown-to-pdf feature
 	"""
@@ -109,8 +109,8 @@ class AddTag(FlaskForm):
 	This class adds a tag to notes
 
             Parameters:
-                    tag (StringField): A tag		    
-                    sumbit (SubmitField): A submit button 
+                    tag (StringField): A tag
+                    sumbit (SubmitField): A submit button
             Returns:
                     Show a markdown-to-pdf form for the markdown-to-pdf feature
 	"""

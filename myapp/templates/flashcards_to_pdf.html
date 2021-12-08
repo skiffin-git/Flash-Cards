@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>Convert Markdown file to PDF</h2>
+
+<form method="POST" enctype=multipart/form-data>
+   {{ form.hidden_tag() }}
+   <p> {{ form.file() }}  {{ form.submit() }}</p>
+
+</form>
+{% endblock %}
