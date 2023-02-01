@@ -1,4 +1,4 @@
-# CMPE 131 - Milestone 2 - Team 7
+# Milestone 2 - Team 7
 
 #### Flash Cards - Web Application. 
 
