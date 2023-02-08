@@ -1,16 +1,23 @@
-# Milestone 2 - Team 7
+# Flash Cards - Web Application. 
 
-#### Flash Cards - Web Application. 
+Uses Flask (API in Python) for backend 
+PostgreSQL for storing and managing data in the database.
 
-Web application for studying flashcards
+## Features
 
-#### Features:
+* Create flashcards 
+* Create todo list 
+* Write notes
+* Convert notes to pdf
+* Rename notes and find text in notes
+* Personalize time management tools
 
-- Upload notes
-- Create flashcards 
-- Create todo list 
-- Convert notes to pdf
-- Rename notes and find text in notes
-- Personalize time management tools
+![](images/main-sreenshot-1.jpg)
+
+![](images/main-sreenshot-2.jpg)
+
+
+
+
 
   
