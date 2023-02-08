@@ -14,7 +14,7 @@ PostgreSQL for storing and managing data in the database.
 
 ![](images/1.jpg)
 
-![](images/1.jpg)
+![](images/2.jpg)
 
 
 
