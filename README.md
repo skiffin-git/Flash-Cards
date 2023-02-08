@@ -12,9 +12,9 @@ PostgreSQL for storing and managing data in the database.
 * Rename notes and find text in notes
 * Personalize time management tools
 
-![](images/main-sreenshot-1.jpg)
+![1](images/main-sreenshot-1.jpg)
 
-![](images/main-sreenshot-2.jpg)
+![2](images/main-sreenshot-2.jpg)
 
 
 
