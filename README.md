@@ -1,4 +1,4 @@
-# LazyCard - Web Application. 
+# Flash Cards - Web Application. 
 
 Uses Flask (API in Python) for backend 
 PostgreSQL for storing and managing data in the database.
